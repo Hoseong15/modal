@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>0102모달메뉴 실습</title>
+  <link rel="stylesheet" href="./같이.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <button type="button" id="open-btn">모달열기</button>
+
+    <div class="img-list">
+      <img src="./images/고양이.jpg" alt="piture1">
+      <img src="./images/고양이2.jpg" alt="pitur2">
+      <img src="./images/오리.jpg" alt="piture3">
+      <img src="./images/올라프.jpg" alt="piture4">
+      <img src="./images/토끼.jpg" alt="piture5">
+    </div>
+
+    <div id="img-modal">
+      <div id="img-modal-box">
+        <button type="button" id="img-modal-btn" class="close-btn">X</button>
+        <div id="img-wrapper">
+          <img src="./images/고양이.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div id="modal">
+      <div id="modal-box">
+        <div id="modal-head">
+          <span>모달 타이틀</span>
+          <button type="button" id="modal-close" class="close-btn">X</button>
+        </div>
+        <div id="modal-sec">
+          <img src="./images/토끼.jpg" alt="modal-sec-img">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolores excepturi, iste consequatur exercitationem ipsam, repudiandae aliquid, deleniti eligendi vero sunt corrupti. Iste, reprehenderit consequatur dicta quo culpa excepturi doloremque.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./java/java.js"></script>
+</body>
+</html>
